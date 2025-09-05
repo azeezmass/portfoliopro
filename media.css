@@ -1,0 +1,149 @@
+/* Media Queries */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    z-index: 999;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .list {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #282c33;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding: 20px 0;
+    border-top: 1px solid #c778dd;
+  }
+
+  .list a {
+    margin: 16px 0;
+  }
+
+  .list.active {
+    left: 0;
+  }
+
+  .herosec {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .heleft {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .heright {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    overflow-y: hidden;
+  }
+
+  .heright img {
+    width: 80%;
+    max-width: 2300px;
+  }
+
+  .dots img,
+  .dots2 img {
+    display: none;
+  }
+
+  .process {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .qout img {
+    width: 100%;
+    position: relative;
+    top: -220px;
+    margin-bottom: -200px;
+  }
+
+  .title .line {
+    width: 150px;
+  }
+
+  .cont {
+    flex-direction: column;
+  }
+
+  .aboutcontent {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .cright {
+    display: none;
+  }
+
+  .aboutme .line2 {
+    width: 150px;
+  }
+  .skillssec {
+    padding-top: 30px;
+  }
+  .skillssec .line {
+    width: 180px;
+  }
+  .skillcard {
+    justify-content: center;
+    margin-top: -20px;
+  }
+
+  .scard {
+    width: 45%;
+  }
+  .contactsec {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .contactcont {
+    margin-top: -45px;
+    margin-left: 25px;
+  }
+  .ccright {
+    display: none;
+  }
+
+  .formsec {
+    scale: 1;
+    width: 90%;
+  }
+
+  footer {
+    margin-top: -150px;
+  }
+  .footercont {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footleft,
+  .footcenter {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
