@@ -122,8 +122,12 @@
     overflow-y: hidden;
   }
   .contactcont {
-    margin-top: 70px;
-    margin-left: 35px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 25px;
   }
   .ccright {
     display: none;
