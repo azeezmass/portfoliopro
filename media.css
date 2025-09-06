@@ -1,5 +1,5 @@
 /* Media Queries */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .hamburger {
     display: block;
     z-index: 999;
