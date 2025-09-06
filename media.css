@@ -128,7 +128,10 @@
     gap: 20px;
     padding: 20px;
     margin-left: 25px;
-    margin-bottom: 30px;
+  }
+  .ccleft {
+    position: relative;
+    top: -80px;
   }
   .ccright {
     display: none;
