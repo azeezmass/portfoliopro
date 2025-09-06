@@ -129,6 +129,10 @@
     padding: 20px;
     margin-left: 25px;
   }
+  .btn:hover {
+    background-color: transparent;
+    color: white;
+  }
   .ccleft {
     position: relative;
     top: -80px;

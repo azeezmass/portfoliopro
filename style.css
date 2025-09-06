@@ -354,11 +354,10 @@ a {
   border: 2px solid white;
 }
 .formsec input::placeholder {
-  color: #c778dd;
+  color: white;
 }
 .btn {
   padding: 10px 30px;
-
   border: white 1px solid;
   color: #c778dd;
   display: inline-block;
