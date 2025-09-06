@@ -104,6 +104,9 @@
   .skillssec {
     padding-top: 30px;
   }
+  #javascript {
+    font-size: 10px;
+  }
   .skillssec .line {
     width: 180px;
   }
